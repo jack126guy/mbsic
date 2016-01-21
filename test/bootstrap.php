@@ -22,7 +22,7 @@ define('MBSIC_AL_DIR', dirname(__FILE__) . '/../lib');
  * @param string $class Class name
  */
 function mbsic_autoload($class) {
-	$path = MBSIC_AL_DIR . '/' . str_replace(array('_'), '/', $class) . '.php';
+	$path = MBSIC_AL_DIR . '/' . str_replace('_', '/', $class) . '.php';
 	if(file_exists($path)) {
 		require_once $path;
 		return;
