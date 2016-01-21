@@ -1,4 +1,15 @@
 <?php
+/**
+ * This file is part of Mbsic. Please refer to LICENSE.txt for
+ * license information.
+ * @copyright 2016 Jack126Guy
+ * @license MIT
+ */
+
+/**
+ * Test class for Mbsic_ByteIterator
+ * @see Mbsic_ByteIterator
+ */
 class Mbsic_ByteIteratorTest extends PHPUnit_Framework_TestCase {
 	public function provideData() {
 		return array(
