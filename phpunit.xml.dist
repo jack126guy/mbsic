@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit
+	bootstrap="test/bootstrap.php"
+	beStrictAboutTestsThatDoNotTestAnything="true"
+	beStrictAboutOutputDuringTests="true"
+>
+	<testsuites>
+		<testsuite name="mbsic">
+			<directory>test</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
